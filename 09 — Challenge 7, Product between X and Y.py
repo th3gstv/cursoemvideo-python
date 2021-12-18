@@ -1,0 +1,5 @@
+x=int(input("Choose one number: "))
+y=(x*2)
+z=(x*3)
+w=(x**(1/2))
+print("The double of {} is {} and the triple is {}. \n Your root square is {}".format(x,y,z,w))

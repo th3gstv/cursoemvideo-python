@@ -1,0 +1,5 @@
+name = input ("Name: ")
+month = input ("Month: ")
+day = input ("Day: ")
+year = input ("Year: ")
+print ("Hello," , name, "!" , "Has you  born in"  , day, "of", month, "of", year, ", right?")
