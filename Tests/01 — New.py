@@ -1,9 +1,9 @@
-name = str(input("What's your name? "))
-if name == "Gustavo":
-    print("Hello, Gustavo! \n Nice name!")
-elif name == "Anny" or name == "Claudia" or name == "Lara" or name == "Eduardo":
-    print("You're Gustavo's family!")
-elif name in "Darlon Juscileia Samuel":
-    print("You're too Gustavo's family!")
-else:
-    print("Welcome, {}!".format(name))
+colors = {
+    "clean": "\033[m",
+    "yellow": "\033[1:33m",
+    "green": "\033[1:32m",
+    "red": "\033[1:31m"}
+name = str(input("Name: "))
+age = str(input("Age: "))
+height = str(input("Height: "))
+print(f'{colors["yellow"]}Welcome{colors["clean"]}, {name}! You have {age} years and {height}m')
