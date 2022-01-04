@@ -1,9 +1,6 @@
-colors = {
-    "clean": "\033[m",
-    "yellow": "\033[1:33m",
-    "green": "\033[1:32m",
-    "red": "\033[1:31m"}
-name = str(input("Name: "))
-age = str(input("Age: "))
-height = str(input("Height: "))
-print(f'{colors["yellow"]}Welcome{colors["clean"]}, {name}! You have {age} years and {height}m')
+s = 0
+for c in range(0, 3):
+    n = int(input("Insert a number: "))
+    s += n
+print(f'The sum results is {s}!')
+print("FIM!")
